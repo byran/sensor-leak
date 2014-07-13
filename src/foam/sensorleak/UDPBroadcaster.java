@@ -17,9 +17,9 @@ package foam.sensorleak;
 
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
-import android.annotation.SuppressLint;
+//import android.annotation.SuppressLint;
 import android.os.AsyncTask;
-import android.os.Build;
+//import android.os.Build;
 import java.net.InetAddress;
 
 public class UDPBroadcaster {
@@ -61,8 +61,8 @@ public class UDPBroadcaster {
             }
         };
 
-        if (Build.VERSION.SDK_INT >= 11) task.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
-        else task.execute();
+        /*if (Build.VERSION.SDK_INT >= 11) task.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+        else*/ task.execute();
     }
 
 }

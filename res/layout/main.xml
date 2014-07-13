@@ -21,22 +21,26 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
+
 <SeekBar
-    android:id="@+id/volume_uri"
-    android:text="Volume"
+    android:id="@+id/accel_x"
     android:layout_width="fill_parent"
     android:layout_height="100px"
-    />
+    android:max="200"
+    android:text="Volume" />
+
 <SeekBar
-    android:id="@+id/pan_uri"
-    android:text="Pan"
+    android:id="@+id/accel_y"
     android:layout_width="fill_parent"
     android:layout_height="100px"
-    />
+    android:max="200"
+    android:text="Pan" />
+
 <SeekBar
-    android:id="@+id/mix"
-    android:text="Pan"
+    android:id="@+id/accel_z"
     android:layout_width="fill_parent"
     android:layout_height="100px"
-    />
+    android:max="200"
+    android:text="Pan" />
+
 </LinearLayout>
